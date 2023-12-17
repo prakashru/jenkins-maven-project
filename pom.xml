@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <artifactId>jenkins-maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:prakashru/jenkins-maven-project.git</connection>
+    <developerConnection>scm:git:git@github.com:prakashru/jenkins-maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>http://github.com/prakashru/jenkins-maven-project</url>
   </scm>
 
   <prerequisites>
