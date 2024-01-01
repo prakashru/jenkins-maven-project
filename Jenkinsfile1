@@ -1,0 +1,30 @@
+pipeline {
+  agent any
+      environment {
+           name1 = "Prakash"
+           name2 = "Dutta"
+        }
+   stages {
+      stage("Init") {
+        steps {
+            echo "Initialize Jenkin Pipelines"
+        }
+      }
+      stage('build') {
+             environment {
+              name3 = "Shanghai"
+           }
+          steps {
+              echo "name1 ${name1}"
+              echo "name2 ${name2}"
+              echo "name3 ${name3}"
+              sh "printenv"
+          }
+       }
+       stage('deploy') {
+          steps{
+              echo "Deployment Done"
+          }
+     }
+  }
+}
